@@ -1,0 +1,21 @@
+an newly created board should have 0 items
+an newly created board should have area used of 0
+
+adding a square with a side of length 2 to an empty board,
+  the area used on the board is 4
+adding two squares with sides of length 2 to an empty board,
+  the area used on the board is 8
+adding a circle with a radius of length 3 to an empty board,
+  then the area used on the board is 28.27
+adding a circle with a radius of length 4 is added to an empty and
+   then adding a square with a side of length 5,
+   then the area used on the board is 75.27
+
+given a board with a circle with radius 100
+  and two squares of length 10 and 5,
+  when the circle is removed,
+  the area used should be 125 and the number of items should be 2
+
+given a board of size 100
+  adding a square of size with sides of length 12
+  should result in a "shape too large" error
